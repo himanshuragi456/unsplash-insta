@@ -1,0 +1,56 @@
+.loadingCardContainer {
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  margin: 0.5rem;
+}
+
+.loadingBannerImg {
+  height: 16rem;
+  width: 100%;
+  object-position: center;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+
+.userInfoContainer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    display: flex;
+  }
+  
+  .userInfoContainer .userIcon{
+      height: 4rem;
+      width: 4rem;
+      border-radius: 999rem;
+      background-color: rgba(128, 128, 128, 0.4);
+  }
+  
+  .userInfoContainer .userTextContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 1.5rem;
+  }
+  
+  .userInfoContainer .userTextContainer .userName {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+    height: 1.5rem;
+    width: 12rem;
+    background-color: rgba(128, 128, 128, 0.4);
+  }
+  
+  .userInfoContainer .userTextContainer .userBio{
+    font-weight: 300;
+    font-size: 1rem;
+    color: gray;
+    margin: 0;
+    height: 1rem;
+    width: 16rem;
+    margin-top: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.4);
+  }

@@ -1,0 +1,17 @@
+.searchBarContainer{
+    margin: 2rem;
+    outline: none;
+}
+
+.searchBar{
+    padding: 0.5rem;
+    outline: none;
+}
+
+.searchBarContainer button{
+    padding: 0.5rem;
+    background-color: rgb(67, 67, 67);
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
